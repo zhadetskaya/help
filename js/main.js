@@ -49,4 +49,54 @@ window.onload = function () {
     });
 
 
+
+
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            // direction: 'vertical',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            spaceBetween:30,
+            centeredSlides: true,
+            slidesPerView: 3,
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            // And if we need scrollbar
+            // scrollbar: {
+            //     el: '.swiper-scrollbar',
+            // },
+            // effect: 'coverflow',
+            // coverflowEffect:{
+            //     rotate: 20,
+            //     stretch:50,
+            //     slideShadows: true,
+            // },
+            breakpoints:{
+                320:{
+                    slidesPerView:1,
+                },
+                480:{
+                    slidesPerView:1,
+                },
+                992:{
+                    slidesPerView:2,
+                    centeredSlides: false,
+                },
+                1400:{
+                    slidesPerView:3,
+                },
+            },
+        })
+
 }

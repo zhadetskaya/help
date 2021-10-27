@@ -256,4 +256,16 @@
         padding: 19px 22px;
         width: 280px;
     }
+    .swiper{
+        height: 180px;
+    }
+    .swiper-wrapper{
+        width: 270px;
+    }
+    .swiper-slide{
+        width: 270px;
+    }
+    .swiper-slide img{
+        width: 270px;
+    }
 }

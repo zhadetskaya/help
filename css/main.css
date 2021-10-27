@@ -479,10 +479,25 @@ body {
 .footer .menu__items {
     width: 932px;
 }
-
+.images{
+    padding: 30px 0;
+}
+.images .title{
+    text-align: center;
+    margin: 0 auto;
+}
 #reserve-error{
     display: none;
     font-size: 20px;
     color: red;
+}
+.swiper{
+    /*max-width: 1100px;*/
+    padding-top: 50px;
+    margin-bottom: 50px;
+    height: 250px;
+}
+.swiper-slide {
+    text-align: center;
 }
 
