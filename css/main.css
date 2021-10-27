@@ -426,8 +426,8 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.form label {
-    margin-bottom: 50px;
+.form div {
+    margin-bottom: 40px;
 }
 .form .text{
     font-family: "Muller Medium", sans-serif;
@@ -458,7 +458,9 @@ body {
 .form__btn:hover{
     background-color: #FFAA28;
 }
-
+.form__wrapper div{
+    text-align: left;
+}
 
 
 

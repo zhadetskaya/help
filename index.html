@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <title></title>
+    <title>Help development</title>
     <link rel="stylesheet" href="css/swiper-bundle.css"/>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/main.css"/>
@@ -61,7 +61,7 @@
                         />
                     </g>
                     <defs>
-                        <clipPath id="clip0_2:65">
+                        <clipPath>
                             <rect width="18.9604" height="19" fill="white" transform="translate(0.8396)"/>
                         </clipPath>
                     </defs>
@@ -201,14 +201,16 @@
             <div class=" call__text">Перезвоним в течение 15 минут, проведем консультацию
                 и предложим план действий по устранению вашей проблемы.
             </div>
-            <form action="" method="post" class="form">
-                <div class="form__wrapper">
-                    <label><div class="text">Ваше имя</div>
+            <form action="mail.php" method="post" class="form">
+                <div class="form__wrapper"><div>
+                    <label class="text">Ваше имя</label>
                         <input id="name" class="form__input" type="text" placeholder="Иван Васильевич" name="name">
-                    </label>
-                    <label><div  class="text">ваш Телефон</div>
+                    </label></div>
+                    <div>
+                    <label class="text">ваш Телефон
                         <input id="phone" class="form__input" type="text" placeholder="8(777) 405 - 77 - 59" name="name">
                     </label>
+                    </div>
                 </div>
                 <p id="reserve-error">
                     Заполните правильно все поля
@@ -252,7 +254,7 @@
                                   fill="white"/>
                         </g>
                         <defs>
-                            <clipPath id="clip0_2:86">
+                            <clipPath>
                                 <rect width="24" height="24" fill="white"/>
                             </clipPath>
                         </defs>
